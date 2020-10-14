@@ -30,7 +30,7 @@ end
 def aoh_update(aoh, row, key, new_value)
   row=1
   key= :name
-  new_value="Joelle van Dyne (PGOAT)"
+  new_value=="Joelle van Dyne (PGOAT)"
   assembled_aoh[row][key]="new_value"
 
   assembled_aoh
